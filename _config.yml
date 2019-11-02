@@ -1,11 +1,11 @@
 # Site
-name: '宋志杰|SongZhijie'
-description: 'Mundana is a free Jekyll theme for awesome people like you, Medium like.'
+name: '清风明月'
+description: '清风明月博客是基于Mundana模板创建的个人博客，目的在于记录生活点滴，鼓励自己不断前进！'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: '/'
-disqus: 'demowebsite'
-email: 'wowthemesnet@gmail.com'
+disqus: '清风明月'
+email: 'song_zhi_jie@163.com'
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 
 include: ["_pages"]
@@ -23,17 +23,17 @@ authors:
       name:           宋志杰
       site:           https://www.wowthemes.net
       avatar:         assets/images/avatar1.jpg
-      bio:            "Hi, I am Sal, the author of Mundana, the theme you're currently previewing. I hope you like it!"
-      email:          wowthemesnet@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
+      bio:            "Hi, 我是宋志杰, 是“清风明月”博客的创办人。希望通过该博客能记录我们生活中的点滴的同时，也能为正在阅读的你带来帮助!"
+      email:          song_zhi_jie@163.com
+      # twitter:        https://twitter.com/wowthemesnet
 
     jane:
-      name:           莹莹
+      name:           ly
       site:           https://www.wowthemes.net
       avatar:         assets/images/avatar2.jpg
-      bio:            "Blogger, fashionista, love to explore new ideas and write on my morning coffee!"
-      email:          fakemail@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
+      bio:            "ly是我的爱人，在生活、工作和学习方面都给予了我极大的鼓励与支持!"
+      # email:          fakemail@gmail.com
+      # twitter:        https://twitter.com/wowthemesnet
  
 # Defaults
 defaults:

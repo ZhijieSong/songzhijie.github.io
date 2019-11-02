@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "欢迎来到我的博客空间!"
+author: "宋志杰"
 categories: [ Jekyll ]
 image: assets/images/demo1.jpg
 ---
