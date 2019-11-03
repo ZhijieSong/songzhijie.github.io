@@ -20,10 +20,10 @@ plugins:
   
 authors:
     seven:
-      name:           宋志杰
+      name:           seven
       site:           https://www.songzhijie.cn
       avatar:         assets/images/avatar1.jpg
-      bio:            "Hi, 我是宋志杰, 是“清风明月”博客的创办人。希望通过该博客能记录我们生活中的点滴的同时，也能为正在阅读的你带来帮助!"
+      bio:            "Hi, 我是Seven, 是“清风明月”博客的创办人。希望通过该博客能记录我们生活中的点滴的同时，也能为正在阅读的你带来帮助!"
       email:          song_zhi_jie@163.com
       github:         https://github.com/ZhijieSong
       # twitter:        https://twitter.com/wowthemesnet
