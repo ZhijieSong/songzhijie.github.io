@@ -1,7 +1,7 @@
 # Site
 name: '清风明月'
 description: '清风明月博客是基于Mundana模板创建的个人博客，目的在于记录生活点滴，鼓励自己不断前进！'
-logo: 'assets/images/logo.png'
+logo: '/assets/images/logo.png'
 favicon: 'assets/images/favicon.png'
 baseurl: '/'
 disqus: 'songzhijie-cn'
