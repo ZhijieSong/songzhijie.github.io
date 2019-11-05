@@ -3,7 +3,7 @@ layout: post
 title:  "欢迎来到我的博客空间!"
 author: seven
 categories: [ Jekyll ]
-image: /assets/images/daosui.jpg
+image: assets/images/daosui.jpg
 ---
 欢迎来到博客`清风明月`， 我是博客创办人Seven, 毕业于上海大学，专业为机械电子工程，现就职于联影医疗科技有限公司，是一名非常普通的软件开发程序员，希望通过这个博客能记录学习历程与生活中的点滴，也期待能通过这个博客认识更多志同道合的朋友。
 
