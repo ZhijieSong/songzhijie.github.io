@@ -3,7 +3,7 @@ name: '清风明月'
 description: '清风明月博客是基于Mundana模板创建的个人博客，目的在于记录生活点滴，鼓励自己不断前进！'
 logo: '/assets/images/logo.png'
 favicon: 'assets/images/favicon.png'
-baseurl: '/'
+baseurl: ''
 disqus: 'songzhijie-cn'
 email: 'song_zhi_jie@163.com'
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
@@ -64,4 +64,4 @@ paginate: 10
 
 # Exclude metadata and development time dependencies (like Grunt plugins)
 exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
-theme: jekyll-theme-slate
+theme: jekyll-theme-cayman
