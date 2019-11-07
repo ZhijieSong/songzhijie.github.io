@@ -54,7 +54,7 @@ defaults:
       layout: page
       
 # Syntax
-markdown: CommonMark
+markdown: GFM
 highlighter: rouge
 # kramdown:
 #   auto_ids:         true
