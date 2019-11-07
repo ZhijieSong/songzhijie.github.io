@@ -20,6 +20,7 @@ Set-ExecutionPolicy AllSigned
 ```powershell
 Set-ExecutionPolicy Bypass -Scope Process
 ```
+
 ## 正式安装
 准备好安装环境，安装就很简单了，你只需要复制如下命令到你的powershell窗口，enter执行即可
 ```powershell
