@@ -12,7 +12,7 @@ Dicom （Digital Imaging and Communications in Medicine）即医学数字成像�
 
 与DICOM另一个相关的重要内容是PACS（Picture Archiving and Communication System），PACS作为一个医疗影像系统，其目的是用来提供运行数字医疗影像所需要的硬件和软件环境，其由影像采集设备、数字影响存档和工作站所组成，与我们日常生活中的摄影进行类比，通过手机拍照就是影像采集端(Modality),将照片转存到电脑上，相当于PACS中的归档(Archive)， 将图像转发给朋友，类似将图像发到工作站给医生浏览（Reviewers）. PACS 与DICOM之间关联紧密，为了保证互换性，PACS所有的功能设计都是DICOM驱动的。
 ![image](https://upload-images.jianshu.io/upload_images/8924350-1c06fc2c594fe4ad.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-DICOM提供了哪些东西：
+# DICOM提供了哪些东西：
 
 - 一个数字医学的通用标准： 目前所有的数字影像设备都能够拍摄DICOM影响，并通过DICOM 网络进行传输。
 - 优秀的图像质量： DICOM提供16bit级（65535）灰度图显示(JPEG,BMP图像均为256级灰度)，从而可以使医生从图像捕获到非常细微的变化
