@@ -1,5 +1,5 @@
 <div class="sticky-top sticky-top-offset">
-    <h4 class="font-weight-bold spanborder"><span>Featured</span></h4>  
+    <h4 class="font-weight-bold spanborder"><span>推荐</span></h4>  
     <ol class="list-featured">				
         {% for post in site.tags.featured %}                
             <li class="mb-4">
@@ -18,4 +18,38 @@
             </li>                
         {% endfor %}   
     </ol>
+
+    <h4 class="font-weight-bold spanborder"><span> 专栏</span></h4>  
+        <ul class="list-group">				
+            {% for category in site.categories %}                
+                {% assign count = category  | last | size %}
+                <li class="list-group-item" style="padding-left: 10px; border: 0; ">
+                <span>
+                    <h6 class="font-weight-bold">
+                        <a href="{{site.baseurl}}/categories.html#{{category  | first}}" class="text-dark">{{ category   | first}}
+                            <span class="badge" style="background: rgb(183, 243, 186);">{{ count }}</span>
+                        </a>
+                    </h6>
+                </span>
+                </li>                
+            {% endfor %}   
+        </ol>
+
+
+    <h4 class="font-weight-bold spanborder"><span>标签</span></h4>  
+        <ul class="list-group" >				
+            {% for tag in site.tags %}                
+                {% assign count = tag | last | size %}
+                <li class="list-group-item" style="border: 0; padding-left: 10px;">
+                <span>
+                    <h6 class="font-weight-bold">
+                        <a href="{{site.baseurl}}/tags.html#{{tag | first}}" class="text-dark">{{ tag  | first}}
+                            <span class="badge" style="background: rgb(183, 243, 186);">{{ count }}</span>
+                        </a>
+                    </h6
+                </span>
+                </li>                
+            {% endfor %}   
+        </ul>
 </div> 
+
