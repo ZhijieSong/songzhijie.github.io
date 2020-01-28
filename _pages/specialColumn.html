@@ -1,0 +1,22 @@
+--- 
+title: "SpecialColumn" 
+layout: default 
+permalink: "/specialColumn.html" 
+---
+<div class="container">
+    <div class="row row-cols-1  row-cols-md-2">
+        {% for category in site.categories %}
+        <div class="col mb-4">
+            <div class="card" style="width: 18rem;">
+                <img  src="{{category[1][0].image}}" class="card-img-top text-hide" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">{{category[1][0].categories[0]}}</h5>
+                <p class="card-text">{{category[1][0].title}}</p>
+                <a href="/categories#{{category[1][0].categories[0] | slugify }}" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+      {% endfor %}
+    </div>
+</div>
+
